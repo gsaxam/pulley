@@ -1,0 +1,279 @@
+body {
+    background-color: #2c3e50;
+}
+
+.container {
+    width: 100%;
+}
+
+.tab-headers {
+    margin-top: 70px;
+}
+
+.spacer {
+    position: relative;
+    margin-right: 3px;
+}
+
+.brand-logo {
+    margin-top: -5px;
+}
+
+.navbar-brand {
+    color: #009b70;
+}
+
+.badge {
+    background-color: #007fa3;
+    font-size: medium;
+    font-weight: lighter;
+    margin-left: 10px;
+    padding-left: 8px;
+    min-width: 30px;
+}
+
+.pill-orange > a {
+    color: white;
+}
+
+.newline {
+    margin-top: 10px;
+}
+
+.green {
+    margin-bottom: 20px;
+    padding-top: 7px;
+    padding-left: 10px;
+    background-color: #5de1ff;
+    height: 70px;
+}
+
+.green-header {
+    width: 50%;
+    background-color: #00acd0;
+    color: #fbf9ff;
+    padding-left: 10px;
+}
+
+.glyphicon {
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #00506d;
+}
+
+.tab-right {
+    /*margin-bottom: 30px;*/
+    margin-right: 30px;
+    padding-left: 18px;
+    min-width: 50px;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: #fbf9ff;
+    background-color: #ff2b63;
+    height: 50px;
+}
+
+.profile-photo {
+    width: 3em;
+    height: 3em;
+    margin-right: 10px;
+    text-align-all: right;
+}
+
+.profile-photo-unapproved {
+    width: 3em;
+    height: 3em;
+    margin-right: 10px;
+    text-align-all: right;
+    border-bottom: 8px solid #f95117;
+}
+
+.profile-photo-approved {
+    width: 3em;
+    height: 3em;
+    margin-right: 10px;
+    text-align-all: right;
+    border-bottom: 8px solid #47b700;
+}
+
+.panel-default > .panel-heading {
+    color: #333;
+    background-color: #2c3e50;
+    border-color: #ddd;
+}
+
+.panel-heading {
+    background-color: #485563;
+}
+
+.panel {
+    border: none;
+    background-color: #2f4154;
+}
+
+.pill-green {
+    margin-top: 90px;
+    font-size: medium;
+    margin-right: 10px;
+    display: inline;
+    height: 30px;
+    width: 50px;
+    background-color: #00d2a3;
+    padding: 10px 10px 10px 10px;
+    color: #00506d;
+}
+
+.pill-blue {
+    margin-top: 90px;
+    font-size: smaller;
+    margin-left: 20px;
+    margin-right: -10px;
+    display: inline;
+    height: 30px;
+    width: 50px;
+    background-color: #55cfea;
+    padding: 10px 10px 10px 10px;
+    color: #00506d;
+}
+
+.pill-blue > a {
+    color: #4b6075;
+}
+
+.pill-orange {
+    font-size: medium;
+    margin-left: 20px;
+    display: inline;
+    height: 30px;
+    width: 50px;
+    background-color: #e25117;
+    padding: 10px 10px 10px 10px;
+    color: #00374a;
+}
+
+.pill-green > a {
+    color: #00374a;
+}
+
+.pill-orange {
+    color: #ffffff;
+}
+
+.halfline {
+    margin-top: 5px;
+}
+
+.fewlines {
+    margin-top: 70px;
+}
+
+.table {
+    font-size: 14px;
+}
+
+.ul > li {
+    background-color: #c9302c;
+}
+
+/*.navbar {*/
+/*min-height: 60px;*/
+/*margin-bottom: 15px;*/
+/*}*/
+
+/*.navbar-default {*/
+/*background-color: #af2200;*/
+/*}*/
+
+.font-highlight {
+    color: #38dba3;
+}
+
+.dropdown-menu {
+    background-color: #323b49;
+}
+
+/*.navbar-default .badge {*/
+/*background-color: #164012;*/
+/*color: #fdfdfd;*/
+/*}*/
+
+.footnote {
+    margin-left: 15%;
+    color: #8e9098;
+}
+
+.footnote-left {
+    color: #8e9098;
+}
+
+/*.panel-body {*/
+/*background-color: #173447;*/
+/*}*/
+
+/*.panel-default > .panel-heading {*/
+/*color: #485563;*/
+/*background-color: #afdc7c;*/
+/*}*/
+
+.alert {
+    padding: 5px;
+}
+
+.alert, .thumbnail {
+    margin-bottom: 2px;
+}
+
+.page-stats {
+    display: inline;
+    margin-left: 20px;
+    font-size: small;
+    color: #485563;
+}
+
+/*.nav-tabs {*/
+/*background-color: #2b3e50;*/
+/*border: none;*/
+/*cursor: default;*/
+/*}*/
+
+/*.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {*/
+/*color: #14c59b;*/
+/*background-color: #173447;*/
+/*border: none;*/
+
+/*}*/
+
+/*.nav-tabs > li {*/
+/*background-color: #485563;*/
+/*border: none;*/
+/*}*/
+
+/*.nav-tabs > li > a {*/
+/*border: none;*/
+/*}*/
+
+.small-icon {
+    margin-top: 10px;
+    position: relative;
+    margin-left: 340px;
+}
+
+input[type="text"], textarea {
+    background-color: #163143;
+    color: snow;
+    border: none;
+}
+
+tr:hover td {
+    background-color: #485563;
+    color: #000;
+}
+
+/*@font-face {*/
+/*font-family: 'Glyphicons Halflings';*/
+/*src: url('../node_modules/bootstrap/fonts/glyphicons-halflings-regular.eot');*/
+/*src: url('../node_modules/bootstrap/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),*/
+/*url('../node_modules/bootstrap/fonts/glyphicons-halflings-regular.woff') format('woff'),*/
+/*url('../node_modules/bootstrap/fonts/glyphicons-halflings-regular.ttf') format('truetype'),*/
+/*url('../node_modules/bootstrap/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');*/
+/*}*/
